@@ -186,7 +186,7 @@ fi
 CHMOD=("/bin/chmod")
 MKDIR=("/bin/mkdir" "-p")
 HOMEBREW_BREW_DEFAULT_GIT_REMOTE="https://github.com/Clover-You/brew"
-HOMEBREW_CORE_DEFAULT_GIT_REMOTE="https://github.com/Clover-You//homebrew-core"
+HOMEBREW_CORE_DEFAULT_GIT_REMOTE="https://github.com/Homebrew//homebrew-core"
 
 # Use remote URLs of Homebrew repositories from environment if set.
 HOMEBREW_BREW_GIT_REMOTE="${HOMEBREW_BREW_GIT_REMOTE:-"${HOMEBREW_BREW_DEFAULT_GIT_REMOTE}"}"
